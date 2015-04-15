@@ -1,0 +1,272 @@
+html{
+	overflow-y: scroll;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+body{
+	background: #afeeee;
+	font-family: arial;	
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+
+a{
+	color: #8B8F8E;
+	outline: 0;
+}
+
+a, a:active a:focus{
+	
+}
+
+p {
+	color: #737877;
+	font-size: 125%;	
+}
+
+ul{
+	color: #737877;
+	font-size: 100%;	
+}
+
+h1, h2, h3{	
+	color: #5D6160;
+
+}
+
+
+/*title*/
+.title-birthing{	
+	font-family: Kunstler Script;
+	font-size: 200%;
+	font-weight: bold;
+	color: black;		
+}
+
+.quote{
+	font-family: Goudy Old Style;
+}
+
+#logo{
+
+	padding-left: 50px;
+	height: 60px;
+}
+
+
+/*image info*/
+.image{
+	border-radius: 200px;		
+}
+
+
+
+/*different sections*/
+.whiteTopBar{
+	width: 100%;
+	padding: 3% 0 0% 0;
+	background: white;
+}
+
+.section{
+	width: 100%;	
+	min-height: 70vh;
+	padding: 10% 0 10% 0;	
+		
+}
+
+.section1{
+	background: #afeeee;	
+}
+
+.section2{
+	background: #90E0E0;
+}
+
+.section3{
+	background: #77D9D9;
+}
+
+.section4{
+	background: #63CFCF;
+}
+
+.section5{
+	background: #68CACC;;
+}
+
+.section6{
+	background: #36ABAD;
+}
+
+.section6 h3{
+	color: white;
+}
+
+.section6 li{
+	color: #D1D8E0;
+}
+
+
+.centered{
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+
+.center-alt{
+	margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}
+
+.max-width{
+	max-width: 1000px;
+}
+
+.small-max-width{
+	max-width: 550px;
+}
+
+.scrollToTop{
+	width:64px; 
+	height:64px;	
+	position:fixed;
+	bottom:75px;
+	right:40px;
+	display:none;
+	background-image: url(http://icons.iconseeker.com/png/fullsize/orbital-icon-suite/orbital-arrow-up.png);
+	background-color: transparent;
+	opacity: 0.2;
+	filter:alpha(opacity=20);
+}
+
+.scrollToTop:hover{
+	text-decoration:none;
+	opacity: 0.6;
+	filter:alpha(opacity=60);
+}
+
+.small-text{
+	font-size: 50%;
+
+}
+
+
+
+/*Navbar values */
+header{	
+	padding: 15px 10px 0px 10px;
+	background: white;
+	text-align: center;
+
+}
+
+nav ul li{	
+	padding: 0px 2px 0px 2px;
+	border-radius: 15px 15px 0px 0px;		
+		
+}
+
+
+.navbar{
+	background: none;
+	border: 0;	
+	outline: 0;
+}
+
+/* mobile navbar */
+@media (max-width: 767px) {
+  
+  nav ul li{		
+	border-radius: 15px 15px 15px 15px;	
+	}
+
+   nav ul li a:hover { 
+	border-radius: 15px 15px 15px 15px !important;	
+	}
+
+}
+
+/*desktop*/
+@media (min-width: 768px){
+.navbar-nav{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}
+}  
+
+.selectedNavBar{
+	background: #afeeee;
+}
+
+
+li.navBar a:hover { 		
+	color: #737877 !important;	
+	 
+}
+
+
+.navbar-toggle{
+	background-color: #36ABAD !important;
+	border: 0;	
+}
+
+.navbar-collapse{
+	border: 0;
+}
+
+/*map*/
+#map-canvas{
+	width: 500px;
+	height: 400px;
+}
+
+
+
+/*footer information*/
+footer{
+	padding: 10px;
+}
+
+footer a{
+	font-size:  100%;
+}
+
+footer p{
+	font-size: 65%;
+}
+
+footer ul{
+	padding: 0;
+}
+
+footer ul li{	
+	font-size: 75%;
+	list-style-type: none;
+}
+
+footer a.contact-me{
+	font-size: 115%;
+	color: #575757;
+
+}
+
+#footer-logo{
+	height: 60px;
+}
+
+.top-padding{
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+
